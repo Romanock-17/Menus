@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="eliminar" layoutX="318.0" layoutY="155.0" mnemonicParsing="false" text="Eliminar" />
+      <Label layoutX="264.0" layoutY="64.0" text="Producto a Eliminar">
+         <font>
+            <Font name="Georgia" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="prodcuto" layoutX="270.0" layoutY="102.0" />
+      <TableView layoutX="12.0" layoutY="255.0" prefHeight="256.0" prefWidth="674.0">
+         <columns>
+            <TableColumn fx:id="tID" prefWidth="136.0" text="ID" />
+            <TableColumn fx:id="tnombre" prefWidth="135.0" text="NOMBRE" />
+            <TableColumn fx:id="tCantidad" prefWidth="120.0" text="CANTIDAD" />
+            <TableColumn fx:id="tPrecio" prefWidth="116.0" text="PRECIO" />
+            <TableColumn fx:id="tDescrpicion" prefWidth="166.0" text="DESCRIPCIÓN" />
+         </columns>
+      </TableView>
+   </children>
+</Pane>
